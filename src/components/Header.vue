@@ -1,10 +1,10 @@
 <template>
     <header>
-      <nav class="navbar">
+      <nav class="navbar is-fixed-top">
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item" href>
-              <img src="../assets/site_logo.png" width="220px">
+              M2 Mathematics
             </a>
             <div class="navbar-burger has-text-black" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
               <span></span>
@@ -47,8 +47,7 @@ export default {
 
 <style scoped lang="scss">
  header {
-   padding-top: 8px;
-   min-height: 65px;
+   min-height: 46px;
  }
   .navbar-item {
     color: black;

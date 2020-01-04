@@ -2,15 +2,18 @@
   <section>
     <Header></Header>
     <Hero></Hero>
+    <Advantages></Advantages>
   </section>
 </template>
 <script>
 import Header from './Header'
 import Hero from './Hero'
+import Advantages from './Advantages'
 export default {
   components: {
     Hero,
-    Header
+    Header,
+    Advantages
   }
 }
 </script>
