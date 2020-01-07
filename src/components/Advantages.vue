@@ -5,7 +5,7 @@
           <div class="columns is-centered">
             <div class="column is-7">
               <div class="title">Our advantages</div>
-              <hr width="15%" class="hr-center">
+              <hr width="25%" class="hr-center">
               <div class="subtitle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam nihil alias quaerat accusamus.</div>
             </div>
           </div>
@@ -52,9 +52,10 @@ export default {
 <style scoped>
   .content-container {
     padding-top: 75px;
+    padding-bottom: 75px;
   }
   .hr-center{
       border: 2px solid blue;
-    margin: 0 auto;
+      margin: 0 auto;
   }
 </style>

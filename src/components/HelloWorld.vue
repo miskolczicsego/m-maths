@@ -3,17 +3,20 @@
     <Header></Header>
     <Hero></Hero>
     <Advantages></Advantages>
+    <Teachers></Teachers>
   </section>
 </template>
 <script>
 import Header from './Header'
 import Hero from './Hero'
 import Advantages from './Advantages'
+import Teachers from './Teachers'
 export default {
   components: {
     Hero,
     Header,
-    Advantages
+    Advantages,
+    Teachers
   }
 }
 </script>
